@@ -1,0 +1,266 @@
+{
+  "id": "c0f9fc56-8571-4588-9e03-9847eee6782c",
+  "version": "2.0",
+  "name": "amogh helper",
+  "url": "https://sarathi.parivahan.gov.in",
+  "tests": [{
+    "id": "d9532435-dcef-4196-b032-ea7635abbff1",
+    "name": "Registration",
+    "commands": [{
+      "id": "b0eb2329-fe63-424e-9f60-766270bca5a9",
+      "comment": "",
+      "command": "open",
+      "target": "https://sarathi.parivahan.gov.in/sarathiservice/sarathiHomePublic.do?stCd=MH",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d447557-bd9f-4d7b-ad52-7fd1386f0f2f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68c76a6b-77ed-4377-8c16-6fe8b9f29248",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Others",
+      "targets": [
+        ["linkText=Others", "linkText"],
+        ["css=.nav-item:nth-child(8) > #navbarDropdownMenuLink", "css:finder"],
+        ["xpath=(//a[contains(text(),'Others')])[2]", "xpath:link"],
+        ["xpath=(//a[@id='navbarDropdownMenuLink'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='navbarNavDropdown']/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[50]", "xpath:href"],
+        ["xpath=//div/ul/li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Others ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45bda003-7ff7-448a-ac99-852d50318fdb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Camp Registration",
+      "targets": [
+        ["linkText=Camp Registration", "linkText"],
+        ["css=.open li:nth-child(6) > .dropdown-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Camp Registration')]", "xpath:link"],
+        ["xpath=//div[@id='navbarNavDropdown']/ul/li[8]/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'regCampAppl.do')]", "xpath:href"],
+        ["xpath=//li[8]/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Camp Registration')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4e6aa1a-1dd2-4b19-8a1a-6b1f8f3d6bac",
+      "comment": "",
+      "command": "click",
+      "target": "id=applNum",
+      "targets": [
+        ["id=applNum", "id"],
+        ["name=applNum", "name"],
+        ["css=#applNum", "css:finder"],
+        ["xpath=//input[@id='applNum']", "xpath:attributes"],
+        ["xpath=//div[@id='registforcamp']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60a3f2e0-d4e8-4a7a-a142-e245aaf871bf",
+      "comment": "",
+      "command": "type",
+      "target": "id=applNum",
+      "targets": [
+        ["id=applNum", "id"],
+        ["name=applNum", "name"],
+        ["css=#applNum", "css:finder"],
+        ["xpath=//input[@id='applNum']", "xpath:attributes"],
+        ["xpath=//div[@id='registforcamp']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "416613821"
+    }, {
+      "id": "12ed6d8a-999a-42c9-8608-f40200d21321",
+      "comment": "",
+      "command": "click",
+      "target": "id=dateOfBirth",
+      "targets": [
+        ["id=dateOfBirth", "id"],
+        ["name=dateOfBirth", "name"],
+        ["css=#dateOfBirth", "css:finder"],
+        ["xpath=//input[@id='dateOfBirth']", "xpath:attributes"],
+        ["xpath=//div[@id='registforcamp']/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fda7ae95-25f1-4a3d-b410-e05eb873ec54",
+      "comment": "",
+      "command": "type",
+      "target": "id=dateOfBirth",
+      "targets": [
+        ["id=dateOfBirth", "id"],
+        ["name=dateOfBirth", "name"],
+        ["css=#dateOfBirth", "css:finder"],
+        ["xpath=//input[@id='dateOfBirth']", "xpath:attributes"],
+        ["xpath=//div[@id='registforcamp']/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "23-09-1996"
+    }, {
+      "id": "57925706-9e35-4d85-acc4-bd100331eb2b",
+      "comment": "",
+      "command": "click",
+      "target": "id=captxt",
+      "targets": [
+        ["id=captxt", "id"],
+        ["name=captxt", "name"],
+        ["css=#captxt", "css:finder"],
+        ["xpath=//input[@id='captxt']", "xpath:attributes"],
+        ["xpath=//div[@id='registforcamp']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5dbf2663-ffe9-4b8d-9919-4e1b9493502c",
+      "comment": "",
+      "command": "click",
+      "target": "id=campName",
+      "targets": [
+        ["id=campName", "id"],
+        ["css=#campName", "css:finder"],
+        ["xpath=//select[@id='campName']", "xpath:attributes"],
+        ["xpath=//div[@id='dispcamplist']/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c3b4897-4bf3-4e15-97e9-07035c7bd032",
+      "comment": "",
+      "command": "select",
+      "target": "id=campName",
+      "targets": [],
+      "value": "label=JAT1702021"
+    }, {
+      "id": "8dceb7b1-aa1d-4676-acb6-1ba46ad0a674",
+      "comment": "",
+      "command": "click",
+      "target": "id=campName",
+      "targets": [
+        ["id=campName", "id"],
+        ["css=#campName", "css:finder"],
+        ["xpath=//select[@id='campName']", "xpath:attributes"],
+        ["xpath=//div[@id='dispcamplist']/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "698efafb-6d97-4948-aba7-1cf6d7f42158",
+      "comment": "",
+      "command": "click",
+      "target": "name=camp_id",
+      "targets": [
+        ["name=camp_id", "name"],
+        ["css=td > input", "css:finder"],
+        ["xpath=//input[@name='camp_id']", "xpath:attributes"],
+        ["xpath=//div[@id='disp_camps_list']/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2bcb08a-b08b-408b-ba86-bf7bb789c118",
+      "comment": "",
+      "command": "click",
+      "target": "id=formsubmit",
+      "targets": [
+        ["id=formsubmit", "id"],
+        ["name=formsubmit", "name"],
+        ["css=#formsubmit", "css:finder"],
+        ["xpath=//input[@id='formsubmit']", "xpath:attributes"],
+        ["xpath=//div[@id='finalsubmitdiv']/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f8ff4ea-718a-4935-8cb7-1fe8030befef",
+      "comment": "",
+      "command": "click",
+      "target": "id=1",
+      "targets": [
+        ["id=1", "id"],
+        ["name=iscov", "name"],
+        ["css=#\\31", "css:finder"],
+        ["xpath=//input[@id='1']", "xpath:attributes"],
+        ["xpath=//form[@id='dispdlappldetform']/div/div[5]/fieldset/div/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6ef5821-f9f5-4eae-af4f-48f088590921",
+      "comment": "",
+      "command": "click",
+      "target": "id=2",
+      "targets": [
+        ["id=2", "id"],
+        ["css=#\\32", "css:finder"],
+        ["xpath=//input[@id='2']", "xpath:attributes"],
+        ["xpath=//form[@id='dispdlappldetform']/div/div[5]/fieldset/div/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d84b912-407a-489f-8713-34603172992e",
+      "comment": "",
+      "command": "click",
+      "target": "id=prcdbook",
+      "targets": [
+        ["id=prcdbook", "id"],
+        ["name=method:proceedBookslot", "name"],
+        ["css=#prcdbook", "css:finder"],
+        ["xpath=//button[@id='prcdbook']", "xpath:attributes"],
+        ["xpath=//form[@id='dispdlappldetform']/div/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'PROCEED TO BOOK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "15935c33-a1f3-44c5-ae88-d56b16b6a2c4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=17",
+      "targets": [
+        ["linkText=17", "linkText"],
+        ["css=.cal_green > a", "css:finder"],
+        ["xpath=//a[contains(text(),'17')]", "xpath:link"],
+        ["xpath=//div[@id='calview']/div[2]/table/tbody/tr[4]/td[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/slots/fetchdlslotdet.do?date=17-02-2021')]", "xpath:href"],
+        ["xpath=//td[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'17')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd851aeb-4a67-43c0-b61c-6dd68b8375cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#btnOk > #btnOk",
+      "targets": [
+        ["css=#btnOk > #btnOk", "css:finder"],
+        ["xpath=//button[@id='btnOk']", "xpath:attributes"],
+        ["xpath=//div[@id='btnOk']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Back')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5ea4ab6a-4f03-4178-aa93-7ba821730b09",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://sarathi.parivahan.gov.in/"],
+  "plugins": []
+}
